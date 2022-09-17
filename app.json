@@ -1,0 +1,88 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/message/message",
+    "pages/my/my",
+    "pages/punlish/publish",
+    "pages/service-detail/service-detail",
+    "pages/login/login",
+    "pages/service-edit/service-edit",
+    "pages/conversation/conversation",
+    "pages/order/order",
+    "pages/order-success/order-success",
+    "pages/my-order/my-order",
+    "pages/publisher-success/publisher-success",
+    "pages/refund-list/refund-list",
+    "pages/my-service/my-service",
+    "pages/order-detail/order-detail",
+    "pages/refund/refund",
+    "pages/rating/rating",
+    "pages/refund-detail/refund-detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "迅捷到家",
+    "navigationBarTextStyle":"black",
+    "backgroundColorBottom": "#efefef"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#FBC02D",
+    "color": "#8a8a8a",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "广场",
+        "selectedIconPath": "images/tab-bar/square-sected.png",
+        "iconPath": "images/tab-bar/square.png"
+      },
+      {
+        "pagePath": "pages/punlish/publish",
+        "text": "发布",
+        "selectedIconPath": "images/tab-bar/publish-selected.png",
+        "iconPath": "images/tab-bar/publish.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "selectedIconPath": "images/tab-bar/message-selected.png",
+        "iconPath": "images/tab-bar/message.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "selectedIconPath": "images/tab-bar/my-selected.png",
+        "iconPath": "images/tab-bar/my.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "i-icon": "/components/icon/icon",
+    "i-tabs": "/components/tabs/tabs",
+    "i-service-preview": "/components/service-preview/service-preview",
+    "i-show-status": "/components/show-status/show-status",
+    "i-avatar": "/components/avatar/avatar",
+    "i-rating": "/components/rating/rating",
+    "i-service-rating": "/components/service-rating/service-rating",
+    "i-safe-area": "/components/sefe-area/safe-area",
+    "i-button": "/components/button/button",
+    "i-image-uploader": "/components/image-uploader/image-uploader",
+    "i-badge": "/components/badge/badge",
+    "i-grid": "/components/grid/grid",
+    "i-grid-item": "/components/grid-item/grid-item",
+    "i-order-preview": "/components/order-preview/order-preview",
+    "i-chat": "/components/chat/chat",
+    "i-order-info": "/components/order-info/order-info",
+    "mp-msg": "weui-miniprogram/msg/msg",
+    "mp-form": "weui-miniprogram/form/form",
+    "mp-cell": "weui-miniprogram/cell/cell",
+    "mp-cells": "weui-miniprogram/cells/cells",
+    "mp-toptips": "weui-miniprogram/toptips/toptips"
+  },
+  "useExtendedLib": {
+    "weui": true
+  }
+}

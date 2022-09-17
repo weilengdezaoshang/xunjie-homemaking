@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /*不加的话会让头部的分类被顶上去*/
+    min-height: 100%;
+}
+
+.tabs {
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 99;
+    align-items: center;
+    /*height: 126rpx;*/
+    padding: 30rpx 0;
+    background-color: #ffffff;
+    /*box-sizing: border-box;*/
+}
+
+.tab-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.divider {
+    width: 50rpx;
+    height: 6rpx;
+    margin-top: 10rpx;
+    background-color: #f3d066;
+}
+
+.tab-label {
+    color: #888888;
+    white-space: nowrap;
+}
+
+.active-label {
+    color: #333333;
+    font-weight: bold;
+}
+
+.tab-panel {
+    flex: 1;
+    margin-top: 30rpx;
+}

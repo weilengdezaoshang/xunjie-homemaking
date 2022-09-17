@@ -1,0 +1,28 @@
+<view class="container">
+    <view class="header">
+        <i-avatar size="60" src="{{userInfo.avatar}}" bind:tap="handleToLogin" text="{{userInfo.nickname}}" shape="circle" fontSize="34"></i-avatar>
+    </view>
+    <view class="main">
+        <view class="grid-container">
+            <i-grid bind:itemtap="handleNavToOrder" bind:extendtap="handleNavToOrder" extendCell="{{appointWithMeGrid.extendCall}}" rowNum="{{appointWithMeGrid.rowNum}}" title="{{appointWithMeGrid.title}}" extend="{{appointWithMeGrid.extend}}">
+                <i-grid-item cell="{{item.cell}}" wx:key="index"showBadge="{{appointWithMeStatus[item.badge]}}" badgeCount="{{appointWithMeStatus[item.badge]}}" wx:for="{{appointWithMeGrid.gridItems}}" slot="{{index}}" text="{{item.text}}" icon="{{item.icon}}"></i-grid-item>
+            </i-grid>
+        </view>
+        <view class="grid-container">
+            <i-grid bind:itemtap="handleNavToOrder" bind:extendtap="handleNavToMyService" rowNum="{{myAppointGrid.rowNum}}" title="{{myAppointGrid.title}}" extend="{{myAppointGrid.extend}}">
+                <i-grid-item cell="{{item.cell}}" wx:key="index"showBadge="{{myAppointStatus[item.badge]}}" badgeCount="{{myAppointStatus[item.badge]}}" wx:for="{{myAppointGrid.gridItems}}" slot="{{index}}" text="{{item.text}}" icon="{{item.icon}}"></i-grid-item>
+            </i-grid>
+        </view>
+        <view class="grid-container">
+            <i-grid bind:itemtap="handleNavToMyService"extendCell="{{myProvideGird.extendCall}}" rowNum="{{myProvideGird.rowNum}}" title="{{myProvideGird.title}}" extend="{{myProvideGird.extend}}">
+                <i-grid-item cell="{{item.cell}}" wx:key="index"showBadge="{{provideServiceStatus[item.badge]}}" badgeCount="{{provideServiceStatus[item.badge]}}" wx:for="{{myProvideGird.gridItems}}" slot="{{index}}" text="{{item.text}}" icon="{{item.icon}}"></i-grid-item>
+            </i-grid>
+        </view>
+        <view class="grid-container">
+            <i-grid bind:itemtap="handleNavToMyService" extendCell="{{mySeekGrid.extendCall}}" rowNum="{{mySeekGrid.rowNum}}" title="{{mySeekGrid.title}}" extend="{{mySeekGrid.extend}}">
+                <i-grid-item cell="{{item.cell}}" wx:key="index"showBadge="{{seekServiceStatus[item.badge]}}" badgeCount="{{seekServiceStatus[item.badge]}}" wx:for="{{mySeekGrid.gridItems}}" slot="{{index}}" text="{{item.text}}" icon="{{item.icon}}"></i-grid-item>
+            </i-grid>
+        </view>
+    </view>
+
+</view>

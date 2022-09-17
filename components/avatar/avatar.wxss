@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-image {
+    display: flex;
+}
+.nickname {
+    margin-left: 10rpx;
+}

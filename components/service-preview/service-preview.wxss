@@ -1,0 +1,104 @@
+
+.container {
+    display: flex;
+    border-radius: 10rpx;
+    padding: 30rpx 30rpx;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-size: 22rpx;
+}
+
+.left {
+    position: relative;
+}
+.type-tag {
+    position: absolute;
+    right: 0;
+    padding: 10rpx;
+    width: max-content;
+    background-color: #333333;
+    color: #fff;
+    opacity: 0.7;
+    z-index: 2;
+    font-size: 14rpx;
+}
+.right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30rpx;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.service-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    max-width: 340rpx;
+    min-width: 100rpx;
+    font-size: 32rpx;
+}
+
+
+.cover-image {
+    width: 180rpx;
+    height: 190rpx;
+    border-radius: 10rpx;
+}
+/*分类*/
+.category {
+    display: flex;
+    align-items: center;
+    margin-left: 20rpx;
+}
+.category-text {
+    margin-left: 10rpx;
+}
+/*发布者*/
+.publisher {
+    display: flex;
+    align-items: center;
+}
+.publisher-avatar-image {
+    width: 40rpx;
+    height: 40rpx;
+    border-radius: 50%;
+
+}
+.publisher-nickname {
+    margin-left: 10rpx;
+}
+/*评分*/
+.score {
+    display: flex;
+    align-items: center;
+    color: #f27013;
+    margin-left: 30rpx;
+}
+/*创建时间*/
+.create-time {
+    color: #88888888;
+}
+/*价格*/
+.price {
+    color: red;
+    font-size: 32rpx;
+}
+/*销售数量*/
+.sales {
+    color: #88888888;
+}
+/*最后一行*/
+.row-last {
+    justify-content: space-between;
+}
+
+.label {
+    color: red;
+    font-size: 22rpx;
+}

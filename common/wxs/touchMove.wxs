@@ -1,0 +1,32 @@
+
+var touchStartX
+
+function handleTouchStart(event,ownerInstance) {
+    // 获取触摸开始X轴的位置
+    touchStartX = event.changedTouches[0].clientX
+}
+
+function handleTouchEnd(event,ownerInstance) {
+    var touchEndX = event.changedTouches[0].clientX
+    // 负数代表向左滑动，正数代表向右滑动
+    var distance = touchEndX - touchStartX
+    // -1代表向左，0表示不动，1表示向右
+    var direction = 0
+    if (distance < 0 && distance < -70) {
+        direction = -1
+    }
+    if (distance > 0 && distance > 70) {
+        direction = 1
+    }
+    if (direction !== 0) {
+        // 1.自定义事件triggleEvent 2.直接调用引用该wxs的页面或者组件的方法
+        ownerInstance.callMethod("handleTouchEnd", { event })
+    }
+    console.log(event,ownerInstance, "1111" )
+}
+module.exports = {
+    handleTouchStart: handleTouchStart,
+    handleTouchEnd: handleTouchEnd
+}
+
+

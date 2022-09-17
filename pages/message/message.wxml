@@ -1,0 +1,15 @@
+<view class="container">
+    <block wx:if="{{sdkReady}}">
+        <block wx:if="{{!conversationList.length}}">
+            <i-show-status show content="暂无会话"></i-show-status>
+        </block>
+        <block wx:else>
+            <i-conversation-preview data-item="{{item}}" bind:tap="handleSelect" unreadCount="{{item.unreadCount}}" lastMessage="{{item.lastMessage}}" user="{{item.userProfile}}" wx:for="{{conversationList}}" wx:key="index"></i-conversation-preview>
+        </block>
+    </block>
+    <block wx:else>
+        <i-show-status top="500" show content="会话列表加载失败">
+            <i-button shape="semicircle" bind:tap="handleToLogin">点击刷新</i-button>
+        </i-show-status>
+    </block>
+</view>

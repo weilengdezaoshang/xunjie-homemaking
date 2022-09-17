@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-conversation-window": "components/conversation-window/conversation-window"
+
+  }
+}

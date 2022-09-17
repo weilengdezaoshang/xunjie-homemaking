@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6da2e7fe-75e1-409b-9773-76e054d72f13" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Wechat mini program page js file(Page API)" />
+        <option value="Wechat mini program page json file(Page API)" />
+        <option value="Wechat mini program component js file" />
+        <option value="Wechat mini program component json file" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CWCBeQ8q3yzPkrA5B56j3W3bD2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\weikengdezaoshang\Desktop\前端练习\wx\components" />
+      <recent name="C:\Users\weikengdezaoshang\Desktop\前端练习\wx\images" />
+      <recent name="C:\Users\weikengdezaoshang\Desktop\前端练习\wx\components\service-preview" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6da2e7fe-75e1-409b-9773-76e054d72f13" name="Default Changelist" comment="" />
+      <created>1658908820487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658908820487</updated>
+      <workItem from="1658908827182" duration="8148000" />
+      <workItem from="1658997305530" duration="8016000" />
+      <workItem from="1659228826131" duration="12324000" />
+      <workItem from="1659332939172" duration="802000" />
+      <workItem from="1659335268599" duration="17603000" />
+      <workItem from="1661758736864" duration="7199000" />
+      <workItem from="1661827026023" duration="6422000" />
+      <workItem from="1661839854072" duration="9228000" />
+      <workItem from="1661926305402" duration="12369000" />
+      <workItem from="1661987769830" duration="20503000" />
+      <workItem from="1662022388488" duration="3328000" />
+      <workItem from="1662073119578" duration="7252000" />
+      <workItem from="1662087090763" duration="12851000" />
+      <workItem from="1662110379163" duration="3084000" />
+      <workItem from="1662128675357" duration="1628000" />
+      <workItem from="1662164458782" duration="6201000" />
+      <workItem from="1662246688318" duration="17351000" />
+      <workItem from="1662277490769" duration="18961000" />
+      <workItem from="1662332934378" duration="1138000" />
+      <workItem from="1662334281106" duration="7190000" />
+      <workItem from="1662429319583" duration="9868000" />
+      <workItem from="1662516005688" duration="21973000" />
+      <workItem from="1662625623106" duration="9674000" />
+      <workItem from="1662708133658" duration="11370000" />
+      <workItem from="1662974314983" duration="6566000" />
+      <workItem from="1663022900378" duration="26875000" />
+      <workItem from="1663108893364" duration="14088000" />
+      <workItem from="1663150428450" duration="6798000" />
+      <workItem from="1663160303616" duration="145000" />
+      <workItem from="1663195964074" duration="9445000" />
+      <workItem from="1663220286453" duration="10917000" />
+      <workItem from="1663282354889" duration="169000" />
+      <workItem from="1663282631332" duration="5583000" />
+      <workItem from="1663298107991" duration="6228000" />
+      <workItem from="1663369167391" duration="9818000" />
+      <workItem from="1663385541953" duration="42000" />
+      <workItem from="1663402412470" duration="278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="161" key="SettingsEditor" timestamp="1658908930947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1658908930947" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1663197639964">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1663197639964" />
+    <state x="2536" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1663069029390" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1663298897674">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1662073279534" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1663298897674" />
+  </component>
+</project>
